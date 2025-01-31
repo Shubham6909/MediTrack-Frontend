@@ -3,6 +3,8 @@ import 'package:aecci/views/drawer/company_details.dart';
 import 'package:aecci/views/drawer/market_information.dart';
 import 'package:aecci/views/drawer/change_password.dart';
 import 'package:aecci/views/drawer/personal_details.dart';
+import 'package:aecci/views/drawer/services/wallet_Scree.dart';
+import 'package:aecci/views/drawer/services/add_amount.dart';
 
 
 class CustomDrawer extends StatelessWidget {
@@ -84,13 +86,23 @@ class CustomDrawer extends StatelessWidget {
               _buildListTile(
                 title: 'Certificate of Collaboration',
                 onTap: () {
-                  // Navigate to Certificate of Collaboration screen
+
+
                 },
               ),
               _buildListTile(
                 title: 'Collaboration Portal',
                 onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => AddAmountScreen()),
+                  );
                   // Navigate to Certificate of Collaboration screen
+                },
+              ),
+              _buildListTile(
+                title: 'Wallet',
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => WalletScreen()),
+                  );
                 },
               ),
             ],

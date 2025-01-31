@@ -3,6 +3,7 @@ import 'package:aecci/views/drawer/company_details.dart';
 import 'package:aecci/views/drawer/market_information.dart';
 import 'package:aecci/views/drawer/change_password.dart';
 import 'package:aecci/views/drawer/personal_details.dart';
+import 'events/virtula_b2b_forum.dart';
 
 
 class CustomDrawer extends StatelessWidget {
@@ -136,13 +137,15 @@ class CustomDrawer extends StatelessWidget {
               _buildListTile(
                 title: 'Chamber Event Bookings',
                 onTap: () {
-                  // Navigate to Certificate of Collaboration screen
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => VirtualB2BForumScreen()),
+                  );
                 },
               ),
               _buildListTile(
                 title: 'Virtual B2B Forum',
                 onTap: () {
-                  // Navigate to Certificate of Collaboration screen
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => VirtualB2BForumScreen()),
+                  );
                 },
               ),
             ],

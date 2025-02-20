@@ -4,7 +4,12 @@ import 'package:aecci/views/drawer/custom_drawer.dart';
 
 
 
+
 class ChangePasswordScreen extends StatefulWidget {
+  final Map<String, dynamic> loginData;
+
+  ChangePasswordScreen({required this.loginData});
+
   @override
   _ProfileUpdateScreenState createState() => _ProfileUpdateScreenState();
 }
@@ -17,7 +22,11 @@ class _ProfileUpdateScreenState extends State<ChangePasswordScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: CustomDrawer(context: context),
+      // drawer: CustomDrawer(context: context),
+      drawer: CustomDrawer(
+        context: context,
+        loginData: widget.loginData ?? {},
+      ),
       appBar: AppBar(
         title: Image.asset(
           'assets/images/AECCI Logo (1).png', // Path to your image asset

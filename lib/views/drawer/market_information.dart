@@ -4,6 +4,9 @@ import 'package:aecci/views/drawer/custom_drawer.dart';
 
 
 class MarketingInformationScreen extends StatefulWidget {
+
+  final Map<String, dynamic> loginData;
+  MarketingInformationScreen({required this.loginData});
   @override
   _MarketingInformationScreenState createState() =>
       _MarketingInformationScreenState();
@@ -22,7 +25,11 @@ class _MarketingInformationScreenState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: CustomDrawer(context: context),
+      // drawer: CustomDrawer(context: context),
+      drawer: CustomDrawer(
+        context: context,
+        loginData: widget.loginData ?? {},
+      ),
       appBar: AppBar(
         title: Image.asset(
           'assets/images/AECCI Logo (1).png', // Path to your image asset

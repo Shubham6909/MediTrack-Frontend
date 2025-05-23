@@ -1,16 +1,44 @@
-# aecci
+# MediTrack
 
-A new Flutter project.
+MediTrack is a free digital health assistant that helps users securely store medical records, track vaccinations, and receive timely medicine reminders.
 
-## Getting Started
+## 🔧 Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Backend**: Java 21, Spring Boot, JWT, MongoDB/MySQL, AWS S3
+- **Frontend**: Flutter (Dart)
+- **Cloud**: AWS (S3, EC2)
+- **Other**: RESTful APIs, Multipart File Upload, Push Notifications (planned)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Repositories
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔗 [MediTrack Backend](https://github.com/yourusername/MediTrack-Backend)
+- 🔗 [MediTrack Frontend](https://github.com/yourusername/MediTrack-Frontend)
+
+---
+
+## ⚙️ Features
+
+- Upload and manage medical documents
+- Set personalized medicine reminders
+- Track vaccination records
+- Secure user authentication (JWT-based)
+- Emergency QR for quick access
+- Doctor-prescribed dosage & schedule support (in progress)
+
+---
+
+## 🚀 Getting Started (Backend)
+
+### Prerequisites
+
+- Java 21+
+- Maven or Gradle
+- MongoDB/MySQL
+- AWS S3 bucket
+
+### Run the Application
+
+```bash
+./mvnw spring-boot:run

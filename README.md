@@ -13,8 +13,8 @@ MediTrack is a free digital health assistant that helps users securely store med
 
 ## 📂 Repositories
 
-- 🔗 [https://github.com/Shubham6909/MediTrack-Backend)
-- 🔗 [MediTrack Frontend](https://github.com/yourusername/MediTrack-Frontend)
+- 🔗 [MediTrack Backend](https://github.com/Shubham6909/MediTrack-Backend)
+- 🔗 [MediTrack Frontend](https://github.com/Shubham6909/MediTrack-Frontend)
 
 ---
 

@@ -1,0 +1,1 @@
+C:\FlutterProjects\MediTrack-Frontend\build\app\intermediates\cxx\Debug\393wi2r2\obj\arm64-v8a

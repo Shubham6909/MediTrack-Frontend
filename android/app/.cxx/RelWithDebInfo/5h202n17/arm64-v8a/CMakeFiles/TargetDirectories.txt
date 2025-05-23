@@ -1,0 +1,2 @@
+/Users/aecci/Desktop/Aecci Handover/AECCI_APP(20)/android/app/.cxx/RelWithDebInfo/5h202n17/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/aecci/Desktop/Aecci Handover/AECCI_APP(20)/android/app/.cxx/RelWithDebInfo/5h202n17/arm64-v8a/CMakeFiles/rebuild_cache.dir

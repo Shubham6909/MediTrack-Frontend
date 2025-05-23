@@ -1,0 +1,2 @@
+/Users/aecci/Downloads/AECCI_APP/android/app/.cxx/RelWithDebInfo/4m4t2g1u/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/aecci/Downloads/AECCI_APP/android/app/.cxx/RelWithDebInfo/4m4t2g1u/armeabi-v7a/CMakeFiles/rebuild_cache.dir

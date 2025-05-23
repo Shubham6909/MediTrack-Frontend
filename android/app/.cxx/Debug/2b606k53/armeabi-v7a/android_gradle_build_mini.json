@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/mayurpatil/Desktop/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mayurpatil/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/mayurpatil/Downloads/AECCI_APP(20)/android/app/.cxx/Debug/2b606k53/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mayurpatil/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/mayurpatil/Downloads/AECCI_APP(20)/android/app/.cxx/Debug/2b606k53/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

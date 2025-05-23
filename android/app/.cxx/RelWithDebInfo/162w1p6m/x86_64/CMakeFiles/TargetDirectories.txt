@@ -1,0 +1,2 @@
+/Users/aecci/Desktop/Office/AECCI_APP(20)/android/app/.cxx/RelWithDebInfo/162w1p6m/x86_64/CMakeFiles/edit_cache.dir
+/Users/aecci/Desktop/Office/AECCI_APP(20)/android/app/.cxx/RelWithDebInfo/162w1p6m/x86_64/CMakeFiles/rebuild_cache.dir
